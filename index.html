@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="background">
+    <div class="paper">
+      <header class="header-title"><h2>&nbsp;YaY! It's Bogo &nbsp;</h2></header>
+
+      <div class="radio-container">
+        <!-- Radio Button 1 -->
+        <input type="radio" onclick="showData1()" name="service" id="1" checked/>        
+        <label for="1" class="lbl-radio">
+          <div class="marker"></div>
+          <div class="content">
+            <div class="dataFlex">
+            <div>
+              <div class="title">1 Unit <span class="percent">10% off </span></div>
+              <div class="subtext">Standard Price</div>              
+            </div>
+            <div>
+              <div class="title">$10.00 USD</div>
+              <div class="subtext-d"><strike>$24.00 USD</strike></div>
+            </div>
+           </div>             
+          </div> 
+           <div class="panel1">
+            <table>
+              <tr>
+                <th></th>
+                <th>Size</th>
+                <th>Color</th>
+              </tr>
+              <tr>
+                <td class="label-left">#1</td>
+                <td>
+                  <select id="sizeDropdown1" class="drop">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="colorDropdown1" class="drop">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td class="label-left">#2</td>
+                <td>
+                  <select id="sizeDropdown2" class="drop">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="colorDropdown2" class="drop">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </td>
+              </tr>
+            </table>            
+          </div>               
+        </label>
+
+        <!-- Radio Button 2  -->
+        <input type="radio" onclick="showData2()" name="service" id="2" />
+        <label for="2" class="lbl-radio">
+          <div class="marker"></div>
+          <div class="content">            
+            <div class="dataFlex">
+                <div>
+                    <div class="title">2 Unit <span class="percent">20% off </span></div>
+                    <div class="subtext">Discount Price</div>
+                </div>
+                <div>
+                    <div class="title">$18.00 USD</div>
+                    <div class="subtext-d"><strike>$24.00 USD</strike></div>
+                  </div>
+               </div>
+          </div>
+          <div class="panel2">
+            <table>
+              <tr>
+                <th></th>
+                <th>Size</th>
+                <th>Color</th>
+              </tr>
+              <tr>
+                <td class="label-left">#1</td>
+                <td>
+                  <select id="sizeDropdown1" class="drop">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="colorDropdown1" class="drop">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td class="label-left">#2</td>
+                <td>
+                  <select id="sizeDropdown2" class="drop">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="colorDropdown2" class="drop">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </td>
+              </tr>
+            </table>            
+          </div>
+        </label>
+
+        <!-- Radio Button 3-->
+        <input type="radio" name="service" onclick="showData3()" id="3" />
+        <label for="3" class="lbl-radio">
+          <div class="marker"></div>
+          <div class="content">
+            <div class="dataFlex">
+                <div>
+                    <div class="title">3 Unit <span class="percent">30% off </span></div>
+                    <div class="subtext">Extra Discount Price</div>
+                </div>
+                <div>
+                    <div class="title">$10.00 USD</div>
+                    <div class="subtext-d"><strike>$24.00 USD</strike></div>
+                </div>
+               </div>
+          </div>
+          <div class="panel3">
+            <table>
+              <tr>
+                <th></th>
+                <th>Size</th>
+                <th>Color</th>
+              </tr>
+              <tr>
+                <td class="label-left">#1</td>
+                <td>
+                  <select id="sizeDropdown1" class="drop">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="colorDropdown1" class="drop">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td class="label-left">#2</td>
+                <td>
+                  <select id="sizeDropdown2" class="drop">
+                    <option value="small">S</option>
+                    <option value="medium">M</option>
+                    <option value="large">L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id="colorDropdown2" class="drop">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </td>
+              </tr>
+            </table>            
+          </div>
+        </label>
+    </div>
+    <!--Free Delivery area-->
+    <div id="below">
+        <div class="free">Free Delivery</div>
+        <div class="total">Total : $18.00 USD</div>
+    </div>
+    <!--Add cart Button-->
+    <button> + Add to Cart</button>
+    <div class="power">@ Powered by Pumoe</div>
+    </div>
+  </section>
+  <script src="javascript.js"></script>
+</body>
+
+</html>
